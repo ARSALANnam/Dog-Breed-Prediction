@@ -1,6 +1,6 @@
 # Dog-Breed-Predict
-
-
+Deep learning–based dog breed classification system built with MobileNetV2 and transfer learning on the Stanford Dogs dataset.  
+The model classifies around 120 dog breeds and achieves 67.92% test accuracy using fine‑tuning and data augmentation.
 
 ## Dataset
 
