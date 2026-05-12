@@ -4,8 +4,6 @@ The model classifies around 120 dog breeds and achieves 67.92% test accuracy usi
 
 ## Dataset
 
-
-
 This project uses the Dog Breed Identification dataset from Kaggle.
 
 The dataset contains thousands of dog images belonging to 120 different dog breeds. Each image is labeled with its corresponding breed, enabling supervised training for image classification.
@@ -20,17 +18,22 @@ The images vary in lighting conditions, backgrounds, and dog poses, which makes 
 
 ## Model
 
-The final model is a **transfer learning–based image classification system** built on **MobileNetV2**, pretrained on the ImageNet dataset. MobileNetV2 was selected due to its strong performance–to–efficiency ratio, making it suitable for training and inference on limited GPU resources while still achieving high accuracy.
+The model is based on Transfer Learning using MobileNetV2, a lightweight convolutional neural network architecture pre-trained on ImageNet. Transfer learning allows the model to leverage previously learned visual features and adapt them to the task of dog breed classification.
 
-The model uses a custom classification head consisting of:
-- Global Average Pooling
-- Fully connected layer with ReLU activation
-- Dropout for regularization
-- Softmax output layer for multi-class classification
+The architecture consists of:
 
-To improve generalization and robustness, **data augmentation** layers are integrated directly into the model. After an initial training phase with frozen backbone layers, **fine‑tuning** was applied by unfreezing the upper layers of MobileNetV2 and training with a low learning rate.
+- MobileNetV2 as the feature extractor (pre-trained on ImageNet).
+- A Global Average Pooling layer to reduce spatial dimensions.
+- Fully connected Dense layers for classification.
+- Dropout layers to reduce overfitting.
 
-The final model achieves a **test accuracy of 67.92%** on a challenging multi-class dog breed classification task (~120 classes), demonstrating strong generalization and stability. The model is suitable for deployment and further extension, such as ensemble learning or higher-resolution inputs.
+To improve generalization and performance, several techniques were applied:
+
+- Data Augmentation (random flip, rotation, zoom, and translation) to increase dataset diversity.
+- Fine-tuning of the upper layers of MobileNetV2 to adapt high-level features to dog breeds.
+- EarlyStopping and ReduceLROnPlateau callbacks to stabilize training.
+
+The final model achieves around 67–68% accuracy on the test set when classifying among 120 dog breeds, which is a solid result for this multi-class image classification problem.
 
 
 ## Technologies Used
