@@ -4,7 +4,7 @@
 
 ## Dataset
 
-The final dataset consists of images from the **Stanford Dogs dataset**, covering approximately **120 dog breeds** with high inter-class visual similarity. This dataset represents a realistic and challenging fine-grained image classification problem.
+The Dataset consists of images from the **Stanford Dogs dataset**, covering approximately **120 dog breeds** with high inter-class visual similarity. This dataset represents a realistic and challenging fine-grained image classification problem.
 
 All images were:
 - Resized to a fixed input resolution compatible with the model
