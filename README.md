@@ -41,7 +41,7 @@ The final model achieves around 68–69% accuracy on the test set when classifyi
 - Numpy
 - Pandas
 - Matplotlib
-- SeaBorn
+- Seaborn
 - Plotly
 - Scikit-Learn
 
