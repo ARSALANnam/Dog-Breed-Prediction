@@ -1,6 +1,5 @@
 # Dog-Breed-Predict
-Deep learning–based dog breed classification system built with MobileNetV2 and transfer learning on the Stanford Dogs dataset.  
-The model classifies around 120 dog breeds and achieves 67.92% test accuracy using fine‑tuning and data augmentation.
+This project is a deep learning-based dog breed classification system developed using TensorFlow and Keras. The model is trained on the Kaggle Dog Breed Identification dataset containing 120 dog breeds and uses Transfer Learning with MobileNetV2 to achieve accurate multi-class image classification. Techniques such as data augmentation, fine-tuning, dropout regularization, and learning rate scheduling were applied to improve performance and reduce overfitting. The final model achieved approximately 68% test accuracy while remaining efficient enough to run on consumer-grade GPU hardware.
 
 ## Dataset
 
