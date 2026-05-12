@@ -4,15 +4,19 @@ The model classifies around 120 dog breeds and achieves 67.92% test accuracy usi
 
 ## Dataset
 
-The Dataset consists of images from the **Stanford Dogs dataset**, covering approximately **120 dog breeds** with high inter-class visual similarity. This dataset represents a realistic and challenging fine-grained image classification problem.
 
-All images were:
-- Resized to a fixed input resolution compatible with the model
-- Preprocessed using the **MobileNetV2-specific preprocessing function**
-- Split into training, validation, and test sets using **stratified sampling** to preserve class balance
-- Augmented during training to improve diversity and reduce overfitting
 
-The final dataset configuration ensures fair evaluation, balanced learning across classes, and reliable performance estimation. Combined with transfer learning and fine-tuning, this dataset setup enables the model to achieve strong results while remaining computationally efficient.
+This project uses the Dog Breed Identification dataset from Kaggle.
+
+The dataset contains thousands of dog images belonging to 120 different dog breeds. Each image is labeled with its corresponding breed, enabling supervised training for image classification.
+
+The dataset includes:
+
+- A train folder containing labeled dog images.
+- A labels.csv file that maps each image ID to its corresponding dog breed.
+- A test set used for prediction tasks.
+
+The images vary in lighting conditions, backgrounds, and dog poses, which makes the classification task more challenging and realistic. This diversity helps the model learn robust visual features for distinguishing between many similar dog breeds.
 
 ## Model
 
