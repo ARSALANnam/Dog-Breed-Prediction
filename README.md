@@ -29,10 +29,9 @@ The architecture consists of:
 To improve generalization and performance, several techniques were applied:
 
 - Data Augmentation (random flip, rotation, zoom, and translation) to increase dataset diversity.
-- EarlyStopping and ReduceLROnPlateau callbacks to stabilize training.
+- EarlyStopping to stabilize training.
 
 The final model achieves around 68–69% accuracy on the test set when classifying among 120 dog breeds, which is a solid result for this multi-class image classification problem.
-
 
 ## Technologies Used
 - Python
