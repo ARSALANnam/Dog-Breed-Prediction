@@ -11,11 +11,12 @@
 
 ## Technologies Used
 - Python
+- MobileNetV2 (Transfer Learning)
 - TensorFLow
 - Keras
 - Numpy
 - Pandas
 - Matplotlib
-- Sikit Learn
+- Scikit-Learn
 
 ## DataSet Source
