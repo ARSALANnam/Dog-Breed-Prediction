@@ -50,8 +50,7 @@ The final model achieves around 68–69% accuracy on the test set when classifyi
 - Scikit-Learn
 
 ## DataSet Source
-
 https://www.kaggle.com/datasets/catherinehorng/dogbreedidfromcomp/data
 
 
-### Working on a project............
+## Working on a project............
