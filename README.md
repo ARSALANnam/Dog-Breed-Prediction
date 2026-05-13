@@ -4,6 +4,8 @@ This project is a deep learning-based dog breed classification system developed 
 
 Techniques such as data augmentation, dropout regularization, and learning rate scheduling were applied to improve performance and reduce overfitting. The final model achieved approximately 68% test accuracy while remaining efficient enough to run on consumer-grade GPU hardware.
 
+
+
 ## Dataset
 
 This project uses the Dog Breed Identification dataset from Kaggle.
@@ -17,6 +19,8 @@ The dataset includes:
 - A test set used for prediction tasks.
 
 The images vary in lighting conditions, backgrounds, and dog poses, which makes the classification task more challenging and realistic. This diversity helps the model learn robust visual features for distinguishing between many similar dog breeds.
+
+
 
 ## Model
 
@@ -35,6 +39,8 @@ To improve generalization and performance, several techniques were applied:
 - EarlyStopping to stabilize training.
 
 The final model achieves around 68–69% accuracy on the test set when classifying among 120 dog breeds, which is a solid result for this multi-class image classification problem.
+
+
 
 ## Technologies Used
 
