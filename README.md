@@ -9,6 +9,7 @@ This project uses the Dog Breed Identification dataset from Kaggle.
 
 The dataset contains thousands of dog images belonging to 120 different dog breeds. Each image is labeled with its corresponding breed, enabling supervised training for image classification.
 
+
 The dataset includes:
 
 - A train folder containing labeled dog images.
