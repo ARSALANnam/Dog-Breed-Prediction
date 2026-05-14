@@ -34,6 +34,7 @@ To improve generalization and performance, several techniques were applied:
 The final model achieves around 68–69% accuracy on the test set when classifying among 120 dog breeds, which is a solid result for this multi-class image classification problem.
 
 ## Technologies Used
+
 - Python
 - MobileNetV2 (Transfer Learning)
 - TensorFLow
