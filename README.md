@@ -5,7 +5,6 @@ This project is a deep learning-based dog breed classification system developed 
 Techniques such as data augmentation, dropout regularization, and learning rate scheduling were applied to improve performance and reduce overfitting. The final model achieved approximately 68% test accuracy while remaining efficient enough to run on consumer-grade GPU hardware.
 
 ## Dataset
-
 This project uses the Dog Breed Identification dataset from Kaggle.
 
 The dataset contains thousands of dog images belonging to 120 different dog breeds. Each image is labeled with its corresponding breed, enabling supervised training for image classification.
@@ -19,7 +18,6 @@ The dataset includes:
 The images vary in lighting conditions, backgrounds, and dog poses, which makes the classification task more challenging and realistic. This diversity helps the model learn robust visual features for distinguishing between many similar dog breeds.
 
 ## Model
-
 The model is based on Transfer Learning using MobileNetV2, a lightweight convolutional neural network architecture pre-trained on ImageNet. Transfer learning allows the model to leverage previously learned visual features and adapt them to the task of dog breed classification.
 
 The architecture consists of:
