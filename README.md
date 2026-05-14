@@ -39,12 +39,12 @@ The final model achieves around 68–69% accuracy on the test set when classifyi
 - MobileNetV2 (Transfer Learning)
 - TensorFLow
 - Keras
+- Scikit-Learn
 - Numpy
 - Pandas
 - Matplotlib
 - Seaborn
 - Plotly
-- Scikit-Learn
 
 ## DataSet Source
 https://www.kaggle.com/datasets/catherinehorng/dogbreedidfromcomp/data
