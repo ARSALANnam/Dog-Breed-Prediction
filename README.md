@@ -1,5 +1,6 @@
 # Dog Breed Prediction
 This project is a deep learning-based dog breed classification system developed using TensorFlow and Keras. The model is trained on the Kaggle Dog Breed Identification dataset containing 120 dog breeds and uses Transfer Learning with MobileNetV2 to achieve accurate multi-class image classification.
+
 Techniques such as data augmentation, dropout regularization, and learning rate scheduling were applied to improve performance and reduce overfitting. The final model achieved approximately 68% test accuracy while remaining efficient enough to run on consumer-grade GPU hardware.
 
 ## Dataset
